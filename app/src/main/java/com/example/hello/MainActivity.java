@@ -11,21 +11,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public static int min(int a, int b)
+    public static int min(int a, int b)   //функция нахождения минимального числа
     {
         if(a > b)
             return b;
         else
             return a;
     }
-    public static int max(int a, int b)
+    public static int max(int a, int b)  //функция нахождения максимального числа
     {
         if(a < b)
             return b;
         else
             return a;
     }
-    public class HelloWorld
+    public class HelloWorld //функция вывода Hello World!
     {
          public void main(String[] args)
         {
